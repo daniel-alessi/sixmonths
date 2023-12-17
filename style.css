@@ -101,10 +101,6 @@ html, body {
 
 .img-box:hover{
 	height:9000px;
-	cursor:pointer;
-	
+	cursor:pointer;	
 }
 
-.img-box:hover + padding{
-	height:0px;	
-}
