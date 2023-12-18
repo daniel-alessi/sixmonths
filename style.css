@@ -99,8 +99,12 @@ html, body {
 	
 }
 
-.img-box:hover{
-	height:9000px;
+.img-box:active {
+	height:30000px;
+}
+
+.img-box:hover {
 	cursor:pointer;	
 }
+
 
