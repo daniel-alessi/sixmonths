@@ -99,10 +99,6 @@ html, body {
 	
 }
 
-.img-box:active {
-	height:30000px;
-}
-
 .img-box:hover {
 	cursor:pointer;	
 }
