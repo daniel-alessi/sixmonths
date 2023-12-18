@@ -16,13 +16,15 @@ html, body {
 
 .gallery {
 
-    height: 100%;
+	height: 100%;
 	width: 575px;
 	display:flex;
-	padding: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	box-sizing: border-box;
 	
 	
 }
@@ -33,7 +35,7 @@ html, body {
 	margin: 10px;
 	border-radius:25px;
 	position:relative;
-	transition: height 0.5s;
+	transition: height 1.0s;
 }
 
 .padding {
