@@ -26,7 +26,12 @@
 	</div>
 	
 	<script>
-	function changeHeight(element) {
+	function changeHeight(clickedElement) {
+
+		var defaultHeight = '100%';
+		var enlargedHeight = '9000px';
+
+		var isEnlarged = clickedElement.style.height === enlargedHeight;
 
 		var allElements = document.querySelectorAll('.img-box');
 
@@ -35,7 +40,7 @@
 			element.style.height = '100%';
 		});
 
-		element.style.height = 30000 + "px";
+		clickedElement.style.height = isEnlarged ? defaultHeight : enlargedHeight;
 	}
 	</script>
 
